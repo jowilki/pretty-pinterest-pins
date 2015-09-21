@@ -1,9 +1,9 @@
-=== Plugin Name ===
+=== Pretty Pinterest Pins ===
 Contributors: jowilki
 Donate link: http://jodiwilkinson.com
 Tags: pinterest, widget, sidebar, plugin
 Requires at least: 2.8
-Tested up to: 3.5
+Tested up to: 4.3.1
 Stable tag: trunk
 
 A plugin to show off images, captions, and links from your latest Pinterest activity.
@@ -62,6 +62,12 @@ To show pins only from a specific board, you can enter the name of the board in 
 
 == Changelog ==
 
+= 1.3.1 =
+* Fixes RSS feed for specific boards
+
+= 1.3 =
+* Pinterest feed is now fetched with https
+
 = 1.2 =
 * Added ability to show pins from specific boards and increased the maximum number of pins you can show.
 
@@ -72,5 +78,8 @@ To show pins only from a specific board, you can enter the name of the board in 
 * Initial version
 
 == Upgrade Notice ==
+
+= 1.3.1 =
+Fixes Pinterest url changes to specific boards
 
 = 1.2 =
